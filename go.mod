@@ -203,7 +203,7 @@ replace (
 	// Needed to resolve broken transitive dependencies in buildkit and s2i
 	// golang.org/x/crypto => golang.org/x/crypto v0.0.0-20200323165209-0ec3e9974c59
 
-	golang.org/x/crypto => github.com/openshift/golang-crypto v0.33.1-0.20260212164730-3e9ce6e0b8f5
+	golang.org/x/crypto => github.com/openshift/golang-crypto v0.24.1-0.20260224185142-c13412e85e45
 
 	golang.org/x/net => golang.org/x/net v0.17.0
 	// these are needed since k8s.io/kubernetes cites v0.0.0 for these in its go.mod
